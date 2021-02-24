@@ -1,0 +1,27 @@
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+.container,
+input {
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 50px;
+  color: #318100;
+}
+.container:not(:first-child) {
+  border: 1px solid #eee;
+}
+input,
+input:focus {
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  background: none;
+  text-align: center;
+}
